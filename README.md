@@ -24,5 +24,10 @@ aws_secret_access_key=YOUR_SECRET_ACCESS_KEY
 ./deploy.sh
 ```
 
+## Destroy
+```sh
+./down.sh
+```
+
 ## Authors
 * **Carlos Catalán** - [Github](https://github.com/catalan94)
