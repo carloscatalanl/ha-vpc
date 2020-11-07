@@ -13,3 +13,19 @@ variable "public_subnet_cidrs" {
 variable "private_subnet_cidrs" {
   description = "CIDRs for the PRIVATE subnets"
 }
+
+variable "public_sg_ingress" {
+  description = "public_subnet INGRESS rules"
+}
+
+variable "public_sg_egress" {
+  description = "public_subnet EGRESS rules"
+}
+
+variable "private_sg_ingress" {
+  description = "private_subnet INGRESS rules"
+}
+
+variable "private_sg_egress" {
+  description = "private_subnet EGRESS rules"
+}
