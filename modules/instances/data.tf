@@ -13,3 +13,8 @@ data "aws_ami" "ubuntu" {
 
   owners = ["099720109477"] # Canonical
 }
+
+resource "aws_key_pair" "key_access" {
+  key_name   = "key_access"
+  public_key = file("./private/ssh/key_access.pub")
+}

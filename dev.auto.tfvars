@@ -88,3 +88,6 @@ private_sg_egress = [
     cidr_blocks = ["0.0.0.0/0"]
   }
 ]
+
+## EC2
+instance_type = "t2.micro"

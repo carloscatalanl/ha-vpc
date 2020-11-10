@@ -29,3 +29,7 @@ variable "private_sg_ingress" {
 variable "private_sg_egress" {
   description = "Egress Rules to public_subnet"
 }
+
+variable "instance_type" {
+  description = "Instance type for EC2"
+}
