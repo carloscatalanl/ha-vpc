@@ -33,6 +33,3 @@ ssh -i ./private/ssh/key_access.pem -A ubuntu@[instance IP]
 ```sh
 ./down.sh
 ```
-
-## Authors
-* **Carlos Catalán** - [Github](https://github.com/catalan94)
